@@ -8,8 +8,8 @@ for line in sys.stdin:
     if line=="0 0":
         break
     else:
-#       if k!=1:
-#           print()
+       if k!=1:
+           print()
        L=line.split(" ")
        (stvari,ponude)=(int(L[0]),int(L[1]))
        listastvari=[]
@@ -25,6 +25,7 @@ for line in sys.stdin:
            (cijena,artikli)=(float(podaci[0]),int(podaci[1]))
            if i==0:
                bestcijena=cijena
+               bestponudac=ponudac
            listaartikala=[]
            for j in range(0,artikli):
                listaartikala.append(input())
@@ -44,7 +45,6 @@ for line in sys.stdin:
                    bestponudac=ponudac
        print("RFP #{}".format(k))
        print(bestponudac)
-       print()
                    
             
            
