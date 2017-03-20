@@ -1,8 +1,11 @@
 import sys
+znj=0
 for unos in sys.stdin:
+    znj=znj+1
     unos=unos.replace("\n","")
     if unos!="":
-        print()
+        if znj!=1:
+            print()
         unos=int(unos)
         rj=[]
         for i in range(0,unos+1):
