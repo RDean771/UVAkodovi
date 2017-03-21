@@ -1,7 +1,4 @@
-rijeci=["Happy","birthday","to","you",\
-        "Happy","birthday","to","you",\
-        "Happy","birthday","to","Rujia",\
-        "Happy","birthday","to","you"]
+rijeci=["Happy","birthday","to","you","Happy","birthday","to","you","Happy","birthday","to","Rujia","Happy","birthday","to","you"]
 imena=[]
 N=int(input())
 for i in range(0,N):
