@@ -5,7 +5,7 @@ int main(void)
 {
 	string s;
 	int k=0;
-	while(getline(cin,s))
+	while(cin >> s)
 	{
 		k++;
 		int n;
@@ -18,7 +18,7 @@ int main(void)
 			manji=(ind1 < ind2)? ind1: ind2;
 			veci=ind1+ind2-manji;
 			bool flag=1;
-			if(veci-manji>=2)
+			if(veci-manji>=1)
 			{
 				for(int j=manji+1;j<=veci;j++)
 				{
