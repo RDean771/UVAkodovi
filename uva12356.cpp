@@ -24,7 +24,7 @@ int main(void)
 				if(V[j].second==1){rj2=V[j].first;break;}
 			(rj1==0)? cout << '*' : cout << rj1; 
 			cout << " ";
-			(rj2==0)? cout << '*': cout << rj2 << endl;
+			(rj2==0)? cout << '*' << endl: cout << rj2 << endl;
 		}
 		cout << "-" << endl;
 	}
