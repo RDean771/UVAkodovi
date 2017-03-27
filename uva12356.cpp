@@ -18,7 +18,7 @@ int main(void)
 			for (int j=lijevi-1; j < desni;j++)
 				V[j].second=0;
 			int rj1=0,rj2=0;
-			for(unsigned int j=lijevi-1;j>=0;j--)
+			for(int j=lijevi-1;j>=0;j--)
 				if(V[j].second==1){rj1=V[j].first;break;}
 			for(unsigned int j=desni;j<V.size();j++)
 				if(V[j].second==1){rj2=V[j].first;break;}
